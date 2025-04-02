@@ -11,46 +11,39 @@ This submission implements three key components for the EXXA project:
 ### Clustering (EXXA2)
 - Best silhouette score: 0.433 with 2 clusters
 - Data preprocessing: Removed 91 outliers, retained 7 components explaining 95% variance
-- Visualization: PCA plots and cluster visualizations available in `EXXA_Results/clustering/`
 
 ### Transit Classifier (EXXA3)
 - Test AUC: 0.993
 - Test Average Precision: 0.994
 - Validation Accuracy: 96.00%
 - Training stopped at epoch 27 with early stopping
-- ROC and PR curves available in `EXXA_Results/metrics/`
 
 ### Autoencoder (EXXA4)
 - Final Training Loss: 0.0113
 - Final Validation Loss: 0.0150
-- Reconstructed images available in `EXXA_Results/autoencoder/`
 
-## Visualizations
+## Key Results
 
-### Training Progress
-![Autoencoder Training History](EXXA_Results/training_progress/autoencoder_training_history.png)
-*Autoencoder training and validation loss over epochs*
+### 1. Classifier Performance
+<img src="EXXA_Results/metrics/roc_curve.png" width="400" height="300" alt="ROC Curve">
+<img src="EXXA_Results/metrics/pr_curve.png" width="400" height="300" alt="PR Curve">
 
-![Classifier Training History](EXXA_Results/training_progress/classifier_training_history.png)
-*Classifier training and validation metrics over epochs*
+*The classifier achieved excellent performance with AUC of 0.993 and Average Precision of 0.994*
 
-### Performance Metrics
-![ROC Curve](EXXA_Results/metrics/roc_curve.png)
-*Receiver Operating Characteristic (ROC) curve for the classifier*
+### 2. Training Progress
+<img src="EXXA_Results/training_progress/classifier_training_history.png" width="800" height="400" alt="Classifier Training History">
 
-![PR Curve](EXXA_Results/metrics/pr_curve.png)
-*Precision-Recall (PR) curve for the classifier*
+*Training progress showing convergence and validation performance*
 
-### Clustering Results
-![PCA Visualization](EXXA_Results/clustering/pca_visualization.png)
-*PCA visualization of the clustered data*
+### 3. Autoencoder Results
+<img src="EXXA_Results/autoencoder/reconstruction_examples.png" width="800" height="400" alt="Autoencoder Reconstructions">
 
-![Cluster Visualization](EXXA_Results/clustering/cluster_visualization.png)
-*Visual representation of the identified clusters*
+*Original vs reconstructed images demonstrating the autoencoder's performance*
 
-### Autoencoder Results
-![Reconstruction Examples](EXXA_Results/autoencoder/reconstruction_examples.png)
-*Original vs reconstructed images from the autoencoder*
+### 4. Clustering Visualization
+<img src="EXXA_Results/clustering/pca_visualization.png" width="800" height="400" alt="PCA Visualization">
+
+*PCA visualization showing the effectiveness of our clustering approach*
 
 ## Directory Structure
 ```
