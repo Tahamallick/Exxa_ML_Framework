@@ -25,6 +25,33 @@ This submission implements three key components for the EXXA project:
 - Final Validation Loss: 0.0150
 - Reconstructed images available in `EXXA_Results/autoencoder/`
 
+## Visualizations
+
+### Training Progress
+![Autoencoder Training History](EXXA_Results/training_progress/autoencoder_training_history.png)
+*Autoencoder training and validation loss over epochs*
+
+![Classifier Training History](EXXA_Results/training_progress/classifier_training_history.png)
+*Classifier training and validation metrics over epochs*
+
+### Performance Metrics
+![ROC Curve](EXXA_Results/metrics/roc_curve.png)
+*Receiver Operating Characteristic (ROC) curve for the classifier*
+
+![PR Curve](EXXA_Results/metrics/pr_curve.png)
+*Precision-Recall (PR) curve for the classifier*
+
+### Clustering Results
+![PCA Visualization](EXXA_Results/clustering/pca_visualization.png)
+*PCA visualization of the clustered data*
+
+![Cluster Visualization](EXXA_Results/clustering/cluster_visualization.png)
+*Visual representation of the identified clusters*
+
+### Autoencoder Results
+![Reconstruction Examples](EXXA_Results/autoencoder/reconstruction_examples.png)
+*Original vs reconstructed images from the autoencoder*
+
 ## Directory Structure
 ```
 EXXA_Results/
