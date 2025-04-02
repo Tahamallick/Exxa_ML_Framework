@@ -16,7 +16,7 @@ This submission implements three key components for the EXXA project:
 - Test AUC: 0.993
 - Test Average Precision: 0.994
 - Validation Accuracy: 96.00%
-- Training stopped at epoch 27 with early stopping
+- Training stopped at epoch 40 with early stopping
 
 ### Autoencoder (EXXA4)
 - Final Training Loss: 0.0113
