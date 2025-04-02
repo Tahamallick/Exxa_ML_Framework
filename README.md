@@ -26,7 +26,7 @@ This submission implements three key components for the EXXA project:
 
 ### 1. Classifier Performance
 <img src="EXXA_Results/metrics/roc_curve.png" width="400" height="300" alt="ROC Curve">
-<img src="EXXA_Results/metrics/pr_curve.png" width="400" height="300" alt="PR Curve">
+<img src="EXXA_Results/metrics/precision_recall_curve.png" width="400" height="300" alt="PR Curve">
 
 *The classifier achieved excellent performance with AUC of 0.993 and Average Precision of 0.994*
 
@@ -51,8 +51,7 @@ EXXA_Results/
 ├── checkpoints/
 │   ├── best_autoencoder.pth
 │   ├── best_classifier.pth
-│   ├── autoencoder_final.pth
-│   └── classifier_final.pth
+│
 ├── training_progress/
 │   ├── autoencoder_training_history.png
 │   └── classifier_training_history.png
@@ -75,11 +74,6 @@ EXXA_Results/
 - astropy
 - pytorch_msssim
 
-## Installation
-1. Clone this repository
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
 ```
 
 ## Usage
@@ -107,6 +101,3 @@ python exxa2.py
 - MSE loss for training
 - Latent space visualization
 - Reconstruction quality assessment
-
-## Contact
-For any questions about this submission, please contact the author. 
