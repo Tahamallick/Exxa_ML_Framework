@@ -40,12 +40,12 @@ This submission implements three key components for the EXXA project:
 *The classifier achieved excellent performance with AUC of 0.993 and Average Precision of 0.994*
 
 ### 3. Autoencoder Results
-![Autoencoder Reconstructions](EXXA_Results/autoencoder/reconstruction_examples.png)
+![Autoencoder Reconstructions](EXXA_Results/autoencoder/reconstruction_comparison.png)
 
 *Original vs reconstructed images demonstrating the autoencoder's performance*
 
 ### 4. Clustering Visualization
-![PCA Visualization](EXXA_Results/clustering/pca_visualization.png)
+![PCA Visualization](EXXA_Results/clustering/cluster_visualizatio.png)
 
 *PCA visualization showing the effectiveness of our clustering approach*
 
