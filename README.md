@@ -49,8 +49,6 @@ This submission implements three key components for the EXXA project:
 
 *PCA visualization showing the effectiveness of our clustering approach*
 
-```
-
 ## Dependencies
 - Python 3.x
 - PyTorch
@@ -59,8 +57,6 @@ This submission implements three key components for the EXXA project:
 - scikit-learn
 - astropy
 - pytorch_msssim
-
-```
 
 ## Usage
 1. Run the main script:
