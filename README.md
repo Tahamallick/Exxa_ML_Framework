@@ -45,7 +45,7 @@ This submission implements three key components for the EXXA project:
 *Original vs reconstructed images demonstrating the autoencoder's performance*
 
 ### 4. Clustering Visualization
-![PCA Visualization](EXXA_Results/clustering/cluster_visualizatio.png)
+![PCA Visualization](EXXA_Results/clustering/cluster_visualization.png)
 
 *PCA visualization showing the effectiveness of our clustering approach*
 
