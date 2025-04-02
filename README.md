@@ -25,11 +25,11 @@ This submission implements three key components for the EXXA project:
 ## Key Results
 
 ### 1. Training Progress
-![Classifier Training History](EXXA_Results/training_progress/classifier_training_history.png)
+![Classifier Training History](EXXA_Results/classifier_training_history.png)
 
 *Training progress showing convergence and validation performance*
 
-![Autoencoder Training History](EXXA_Results/training_progress/autoencoder_training_history.png)
+![Autoencoder Training History](EXXA_Results/autoencoder_training_history.png)
 
 *Autoencoder training progress showing loss reduction over epochs*
 
