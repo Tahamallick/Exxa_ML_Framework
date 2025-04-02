@@ -32,11 +32,7 @@ ENV/
 *.swo
 
 # Project specific
-EXXA_Results/checkpoints/
-EXXA_Results/training_progress/
-EXXA_Results/metrics/
-EXXA_Results/clustering/
-EXXA_Results/autoencoder/
+EXXA_Results/checkpoints/*.pth
 
 # Logs and databases
 *.log
