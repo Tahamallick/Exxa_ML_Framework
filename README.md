@@ -49,24 +49,6 @@ This submission implements three key components for the EXXA project:
 
 *PCA visualization showing the effectiveness of our clustering approach*
 
-## Directory Structure
-```
-EXXA_Results/
-├── checkpoints/
-│   ├── best_autoencoder.pth
-│   ├── best_classifier.pth
-│
-├── training_progress/
-│   ├── autoencoder_training_history.png
-│   └── classifier_training_history.png
-├── metrics/
-│   ├── roc_curve.png
-│   └── pr_curve.png
-├── clustering/
-│   ├── pca_visualization.png
-│   └── cluster_visualization.png
-└── autoencoder/
-    └── reconstruction_examples.png
 ```
 
 ## Dependencies
