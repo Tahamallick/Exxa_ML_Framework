@@ -61,7 +61,7 @@ This submission implements three key components for the EXXA project:
 ## Usage
 1. Run the main script:
 ```bash
-python exxa2.py
+python exxatest.py
 ```
 
 ## Implementation Details
